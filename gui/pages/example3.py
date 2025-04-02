@@ -37,7 +37,6 @@ class PAGE_EX3(NFrame):
         return super().enterEvent(a0)
 
     def hideEvent(self, a0) -> None: 
-        self.start_timer.kill()
         return super().hideEvent(a0)
 
 
