@@ -1,6 +1,7 @@
 from gui.qt.common import *
 from gui.pages.example1 import PAGE_EX1
 from gui.pages.example2 import PAGE_EX2
+from gui.pages.example3 import PAGE_EX3
 
 
 #! *** press 'q' to exit after running ***
@@ -9,6 +10,7 @@ class PAGE_MASTER(NStackedWidget):
         super().__init__(*args, **kwargs)
         self.page_ex1:PAGE_EX1 = self.addWidget(PAGE_EX1())
         self.page_ex2:PAGE_EX2 = self.addWidget(PAGE_EX2())
+        self.page_ex2:PAGE_EX3 = self.addWidget(PAGE_EX3())
         # Add more pages here
 
         gsig.previous_page.connect(self.__previous_page)
