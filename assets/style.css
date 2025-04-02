@@ -1,0 +1,79 @@
+
+/*===================================================
+ * Global
+===================================================*/
+*{
+    font-family: Helvetica, monospace;
+    /* font-family: "Lucida Console", Courier, monospace; */
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+    border: 0px transparent;
+    background-color: transparent;
+}
+
+/*===================================================
+ * Generic
+===================================================*/
+#simple_btn {
+    background-color: rgb(209, 212, 30);
+    border: 1px solid rgb(100,100,100);
+    color:rgb(0, 0, 0);
+    font-size:32px;
+    font-weight: bold;
+}
+#simple_btn:pressed {
+    background-color: rgb(179, 182, 22);
+    border: 2px solid rgb(100,100,100);
+    font-size:30px;
+}
+
+/*===================================================
+ * page ex1
+===================================================*/
+#page_ex1 #label4{
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    font-size:24px;
+    text-decoration: underline;
+    font-weight: bold;
+    qproperty-alignment: AlignCenter;
+}
+#page_ex1 #my_btn {
+    background-color: rgb(194, 10, 10);
+    border: 1px solid rgb(102, 1, 1);
+    color:rgb(255, 255, 255);
+    font-size:30px;
+}
+#page_ex1 #my_btn:pressed {
+    background-color: rgb(243, 25, 25);
+    border: 4px solid rgb(102, 1, 1);
+    font-size:22px;
+}
+
+/*===================================================
+ * page ex2
+===================================================*/
+#page_ex2 #my_label{
+    background-color: transparent;
+    color:rgb(148, 235, 66);
+    font-size: 24px;
+    font-weight: bold;
+    qproperty-alignment: AlignCenter;
+}
+#page_ex2 #my_btn {
+    background-color: rgb(20, 211, 201);
+    border: 1px solid rgb(100,100,100);
+    color:rgb(0, 0, 0);
+    font-size:30px;
+}
+#page_ex2 #my_btn:pressed {
+    background-color: rgb(14, 141, 135);
+    border: 2px solid rgb(100,100,100);
+    font-size:22px;
+}
+
+
+
+/* for testing */
+*{background-color:transparent;border:1px solid red;}

@@ -1,0 +1,11 @@
+# Windows
+# Python 3.9.2
+
+pip install opencv-python matplotlib keyboard pyqt5
+
+
+
+
+
+
+
