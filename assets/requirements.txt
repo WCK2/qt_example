@@ -9,3 +9,26 @@ pip install opencv-python matplotlib keyboard pyqt5
 
 
 
+# Linux - (RPi 4B - 8GB) OS-other, Raspberry Pi OS (Legacy, 64-bit) Full - A port of Debian Bullseye with security updates, desktop environment and recommended applications. (Released: 2024-07-04)
+# Samsung Select 128 GB
+# Python 3.9.2
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essential -y
+sudo apt-get install python3-pyqt5 -y
+sudo apt-get install swig libssl-dev libffi-dev -y
+sudo apt install python3-opencv -y
+sudo apt-get install screen -y
+
+sudo raspi-config # enable VNC
+sudo reboot -h now
+
+
+
+
+
+
+
+
+
